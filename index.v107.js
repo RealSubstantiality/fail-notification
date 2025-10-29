@@ -1,4 +1,4 @@
-// Fail Ding v1.06 — 使用 generate_interceptor 武装一轮生成；仅在失败/无内容时蜂鸣。
+// Fail Notification v1.06 — 使用 generate_interceptor 武装一轮生成；仅在失败/无内容时蜂鸣。
 // 不依赖事件总线；仅勾住 fetch / XHR；默认无日志、无 WS/DOM 兜底，尽量零误报。
 // Alt+Shift+B 手动自检蜂鸣。
 
@@ -207,3 +207,4 @@ preloadFailSound();
     XHR.prototype.__fd106 = true;
   }
 })();
+
