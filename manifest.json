@@ -1,0 +1,9 @@
+{
+  "id": "fail-notification",
+  "display_name": "Fail Notification",
+  "author": "RealSubstantiality",
+  "version": "1.0.7",
+  "js": "index.v107.js",
+  "loading_order": 100,
+  "generate_interceptor": "failDingIntercept"
+}
